@@ -9,6 +9,7 @@ import pinocchio
 
 from .libcrocoddyl_pywrap import *  # noqa: F403
 from .libcrocoddyl_pywrap import __raw_version__, __version__  # noqa: F401
+from .multibody.actuations.floating_base_thrusters import Thruster
 
 
 def rotationMatrixFromTwoVectors(a, b):
